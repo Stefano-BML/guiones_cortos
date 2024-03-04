@@ -168,3 +168,36 @@ body {
     height: 90px;
     padding-top: 1rem;
   }
+
+  .footer__bar {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 1px solid var(--text-light);
+  }
+  
+  .footer__bar p {
+    font-size: 0.9rem;
+    color: var(--text-light);
+  }
+  
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .socials span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--text-light);
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .socials span:hover {
+    color: var(--white);
+  }
