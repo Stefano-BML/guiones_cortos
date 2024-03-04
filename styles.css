@@ -126,3 +126,45 @@ body {
   margin: 1rem auto 2rem;
   color: var(--text-light);
 }
+
+.question__accordian {
+    max-width: 900px;
+    margin: 4rem auto 0;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .question__box {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    color: var(--text-light);
+  }
+  
+  .question__box .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-weight: 500;
+    color: var(--white);
+  }
+  
+  .question__box .title .icon {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+  
+  .question__box .content {
+    height: 0;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  
+  .question__box.active .content {
+    height: 90px;
+    padding-top: 1rem;
+  }
