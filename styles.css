@@ -141,8 +141,8 @@ body {
     color: var(--text-light);
   }
 
-  .question__box :active {
-    height: 25rem;
+  .question__box.active .content {
+    display: block;
   }
   
   .question__box .title {
