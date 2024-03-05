@@ -140,6 +140,10 @@ body {
     border-radius: 1rem;
     color: var(--text-light);
   }
+
+  .question__box :active {
+    height: 25rem;
+  }
   
   .question__box .title {
     display: flex;
